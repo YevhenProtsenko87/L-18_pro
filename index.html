@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid red;
+        position: fixed;
+    } */
+    .block  {
+            position: fixed;
+            border: 2px solid black;
+            width: 80px;
+            height: 200px;
+            top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .block2 {
+            border: initial;
+            height: 0px;
+            background-color: green;
+        }
+        .block3 {
+            border: initial;
+            height: 0px;
+            background-color: red;
+        }
+</style>
+<body>
+    <!-- <div class="box"></div> -->
+    <input type="range" min = "0" max="100" value="0">
+    <input type="number" min = "0">
+    <div class="block">
+        <div class="block3"></div>
+       <div class="block2"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
